@@ -1,8 +1,8 @@
+# Added a comments
 def dedupe_ingredients(ingredients):
     return set(ingredients)
 
 def create_combined_ingredients(ingredients):
-    combined_ingredients = set()
 
     for ingredient_list in ingredients:
         combined_ingredients = combined_ingredients | dedupe_ingredients(ingredient_list)
